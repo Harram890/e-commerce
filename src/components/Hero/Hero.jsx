@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Hero.scss"
-import handicon from '../../assets/handicon.jpg';
-import arrowicon from "../../assets/arrow.png";
+
 import men from "../../assets/men.avif";
 const Hero = () => {
   return (
@@ -12,24 +11,20 @@ const Hero = () => {
        
 
 <div className="hero-hand-icon">
-    <p>new</p>
-    <img src={handicon} alt="" height="60px" />
+    <p>New</p>
+  
 </div>
 <p>Collections</p>
 <p>For everyone</p>
 
  <div className="hero-latest-btn">
     <div>Latest Collections</div>
-    <img src={arrowicon} alt="" height= "30px"/>
+  
  </div>
  
  </div>
 
 
-        <div className="hero-right">
-{/* <img src={men} alt="" height= "400px" /> */}
-<p>Discount <br /> 10% off </p>
-        </div>
       </div>
     </>
   )
